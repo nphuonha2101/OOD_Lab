@@ -1,4 +1,4 @@
-package Simple_Factory;
+package simple_factory;
 
 public class SimplePizzaFactory {
     public Pizza createPizza(String type) {

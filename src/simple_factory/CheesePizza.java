@@ -1,6 +1,4 @@
-package Simple_Factory;
-
-import java.util.ArrayList;
+package simple_factory;
 
 public class CheesePizza extends Pizza {
     public CheesePizza() {

@@ -1,6 +1,4 @@
-package Simple_Factory;
-
-import java.sql.SQLOutput;
+package simple_factory;
 
 public class TestDrive {
     public static void main(String[] args) {

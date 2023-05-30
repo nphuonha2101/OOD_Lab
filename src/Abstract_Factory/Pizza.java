@@ -1,12 +1,13 @@
 package Abstract_Factory;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Pizza {
     protected String name;
     protected Dough dough;
     protected Sauce sauce;
-    protected List<Verggie> verggies;
+    protected List<Verggie> verggies = new ArrayList<>();
     protected Cheese cheese;
     protected Pepperoni pepperoni;
     protected Clam clam;
@@ -41,9 +42,9 @@ public abstract class Pizza {
         if (sauce != null)
             result.append("Sauce " + this.sauce.toString() + "\n");
         if (!verggies.isEmpty())
-            for (Verggie verggies: verggies
-                 ) {
-            result.append("Verggie " + this.verggies.toString() + "\n");
+            for (Verggie verggie : verggies
+            ) {
+                result.append("Verggie " + this.verggies.toString() + "\n");
             }
         if (cheese != null)
             result.append("Cheese " + this.cheese.toString() + "\n");
